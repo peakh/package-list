@@ -20,7 +20,7 @@ A simple two-page PWA to quickly and easily save NPM package lists for efficient
 
 ## Video Demonstration
 
-![video](./assets/video/demonstration.mp4)
+https://github.com/peakh/package-list/assets/69383725/b31a3803-30ca-49fd-b34e-9e5f0d2aed8a
 
 ## Getting Started
 
