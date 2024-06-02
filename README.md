@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![hero](./assets/img/hero.png)
+
+## Package List
+
+A simple two-page PWA to quickly and easily save NPM package lists for efficient access. All saved packages are saved in local storage - no database nor cookies are involved.
+
+## Resources Used
+
+-   [Next.js](https://nextjs.org)
+-   [Tailwind CSS](https://tailwindcss.com)
+-   [shadcn UI](https://ui.shadcn.com)
+-   [Lucide Icons](https://lucide.dev)
+-   [Vercel](https://vercel.com)
+
+## Screenshots
+
+![hero](./assets/img/hero.png)
+
+![saved](./assets/img/saved.png)
+
+## Video Demonstration
+
+![video](./assets/video/demonstration.mp4)
 
 ## Getting Started
 
-First, run the development server:
+Install the required dependencies:
+
+```bash
+npm i
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +48,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3060](http://localhost:3060) in your browser. This is where you can preview your changes in real-time.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contributions
 
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Any discovered bugs or minor fixes/improvements should be discussed in an [Issue](https://github.com/peakh/package-list/issues) or [Pull Request](https://github.com/peakh/package-list/pulls), respectively.
