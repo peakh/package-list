@@ -33,7 +33,7 @@ export default function handleAddPackage({ codeContent, formEvent, setCodeConten
 
 	packageName = packageName.replaceAll(CONSECUTIVE_HYPHEN_REGEX, "-");
 
-	if (!packageName ?? !packageName.length) {
+	if (!packageName || !packageName.length) {
 		formEvent.preventDefault();
 
 		setInput("");
